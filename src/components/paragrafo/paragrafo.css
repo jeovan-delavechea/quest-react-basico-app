@@ -1,0 +1,11 @@
+.paragrafo {
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    background-color: bisque;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
