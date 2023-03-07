@@ -1,13 +1,12 @@
-import 
-Paragrafo from './components/paragrafo/paragrafo.js';
-import Button from './components/botao/botao'
+import StyleText from './components/style-text/index';
+import AlertButton from './components/alert-button/index'
 
 function App() {
   return (
     <>
-      <Paragrafo title='Texto usando props!' color='red' />
+      <StyleText title='Texto usando props!' color='red' textTransform='uppercase' />
 
-    <Button label={'Alerta!'} />
+    <AlertButton label={'Alerta!'} />
     </>
   );
 }
